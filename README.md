@@ -65,6 +65,16 @@ PIMS/
 └── schema.sql
 ```
 
+Files and folders created during packaging:
+
+```
+PIMS/
+├── out/          Compiled .class files
+├── PIMS.jar      Runnable JAR
+├── dist/         PIMS.jar and lib/, used as the jpackage input
+└── PIMS/         Packaged Windows application (contains PIMS.exe)
+```
+
 The `src` folder contains the Java classes for the login screen, main application window, database connection, medicine and supplier management, cashier accounts, reports, sales and stock checking.
 
 ## 5. Database Design
